@@ -11,5 +11,22 @@ buttonTwo.innerText = "Cancel";
 buttons.appendChild(buttonTwo);
 
 function checkButton() {
+let users = document.getElementById("label");
+if (users == "Lawnmower Man"){
 	alert("hey");
 }
+}
+
+// let user = document.createElement("div");
+// user.setAttribute("id","users");
+// dialogs.appendChild(user);
+
+// let pas = document.createElement("div");
+// pas.setAttribute("id","pass");
+// dialogs.appendChild(pas);
+
+// function checkButton() {
+// 	if ("Lawnmower Man" == user) {
+// 		alert("Hey");
+// 	}
+// }
