@@ -5,11 +5,12 @@ buttonOne.innerText = "Ok";
 buttons.appendChild(buttonOne);
 
 let buttonTwo = document.createElement("button");
-buttonTwo.setAttribute("onClick","button");
+buttonTwo.setAttribute("onClick","button()");
 buttonTwo.setAttribute("id","buttonsTwo");
 buttonTwo.innerText = "Cancel";
 buttons.appendChild(buttonTwo);
 
+<<<<<<< Updated upstream
 function checkButton() {
 let users = document.getElementById("label");
 if (users == "Lawnmower Man"){
@@ -30,3 +31,18 @@ if (users == "Lawnmower Man"){
 // 		alert("Hey");
 // 	}
 // }
+=======
+function checkButton(){
+	let user = document.getElementsByTagName("input");
+	let pass = document.getElementsByTagName("input");
+	const boxes = document.getElementsByClassName("box");
+	if (user = "Lawnmower Man"){
+		if (pass = "7.3942"){
+			element.classList.remove(boxes);
+		}
+	}
+}
+
+// alert(user[0].value);
+// alert(user[1].value);
+>>>>>>> Stashed changes
